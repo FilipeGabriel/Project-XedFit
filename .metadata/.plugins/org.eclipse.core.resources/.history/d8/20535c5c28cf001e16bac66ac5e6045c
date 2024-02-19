@@ -1,0 +1,5 @@
+package com.elevenidias.xedfit.entities;
+
+public class Student {
+
+}

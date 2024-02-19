@@ -1,0 +1,10 @@
+package com.homework.sbwork.repositories;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.homework.sbwork.entities.User;
+
+//Responsável por fazer operações com a entidade User. Instancia um abjeto repository que vai ter várias operações para trabalhar com o User.
+public interface UserRepository extends JpaRepository<User, Long>{
+	
+}
